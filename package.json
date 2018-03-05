@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Vincedream/puppeteer-yanxuan/issues"
   },
-  "homepage": "https://github.com/Vincedream/puppeteer-yanxuan#readme"
+  "homepage": "https://github.com/Vincedream/puppeteer-yanxuan#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "mongoose": "^5.0.8",
+    "puppeteer": "^1.1.1"
+  }
 }
