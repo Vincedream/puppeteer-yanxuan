@@ -6,8 +6,7 @@ const url = `http://you.163.com/item/list?categoryId=`
 const allTypeUrl = config.allTypeUrl
 const getAllGoods = require('./puppet/goods').getAllGoods;
 const getSingleGoods = require('./puppet/single').getSingleGoods;
-// const url = `https://movie.douban.com/tag/#/?sort=R&range=6,10&tags=%E7%94%B5%E5%BD%B1`
-// 
+
 const sleep = time => new Promise(resolve => {
   setTimeout(resolve, time)
 })
