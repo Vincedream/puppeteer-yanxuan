@@ -14,7 +14,7 @@ const goodsSchema = new Schema({
   originUrl: String,
 
   posterKey: String,
-
+  chooseArr: Array,
 
 
   meta: {
